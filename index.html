@@ -44,6 +44,19 @@
       border-bottom: 1px solid #e5e7eb;
       margin-bottom: 16px;
     }
+    .print-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+    @media print {
+      body { margin: 12px; color: #000; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .sticky-controls { display: none !important; }
+      :root { --sticky-toolbar-height: 0px; }
+      th { position: static; top: auto; background: #f3f4f6 !important; }
+      thead { display: table-header-group; }
+      tr { page-break-inside: avoid; }
+      h2 { page-break-after: avoid; page-break-inside: avoid; }
+      table { page-break-inside: auto; }
+      .thumb { max-width: 56px; max-height: 56px; width: auto; height: auto; }
+      a { color: #000; text-decoration: none; }
+    }
   </style>
 </head>
 <body data-unit="both" data-lang="both">
@@ -52,8 +65,8 @@
     <div class="ko-only">이사 보고서: Korea - July 2026</div>
   </h1>
   <div class="meta">
-    <div class="en-only">Generated May 5, 2026 at 6:10 PM</div>
-    <div class="ko-only">생성일 May 5, 2026 at 6:10 PM</div>
+    <div class="en-only">Generated May 5, 2026 at 6:16 PM</div>
+    <div class="ko-only">생성일 May 5, 2026 at 6:16 PM</div>
   </div>
   <div class="toolbar sticky-controls">
     <div class="control-group">
@@ -83,6 +96,13 @@
         </button>
         <button onclick="setUnit('metric', this)">
           <span class="en-only">Metric</span><span class="ko-only">미터법</span>
+        </button>
+      </div>
+    </div>
+    <div class="print-actions">
+      <div class="controls">
+        <button type="button" onclick="window.print()">
+          <span class="en-only">Print</span><span class="ko-only">인쇄</span>
         </button>
       </div>
     </div>
