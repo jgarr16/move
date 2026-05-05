@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Korea - July 2026 Move Report</title>
   <style>
+    :root { --sticky-toolbar-height: 72px; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 24px; color: #1f2937; }
     h1 { margin: 0 0 6px 0; }
     .meta { color: #6b7280; margin-bottom: 16px; }
@@ -16,7 +17,7 @@
     .controls button.active { background: #2563eb; color: #fff; border-color: #2563eb; }
     table { width: 100%; border-collapse: collapse; margin-bottom: 24px; table-layout: fixed; }
     th, td { border: 1px solid #e5e7eb; padding: 8px 10px; text-align: left; vertical-align: top; }
-    th { background: #f9fafb; position: sticky; top: 0; }
+    th { background: #f9fafb; position: sticky; top: var(--sticky-toolbar-height); z-index: 20; }
     th.item-col, td.item-col { width: 22%; }
     th.category-col, td.category-col { width: 14%; }
     th.photo-col, td.photo-col { width: 92px; }
@@ -33,6 +34,16 @@
     .muted { color: #6b7280; }
     .submeta { margin-top: 6px; font-size: 0.86rem; color: #4b5563; line-height: 1.35; }
     .submeta .note-value { display: block; }
+    .sticky-controls {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      background: #ffffff;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e5e7eb;
+      margin-bottom: 16px;
+    }
   </style>
 </head>
 <body data-unit="both" data-lang="both">
@@ -41,10 +52,10 @@
     <div class="ko-only">이사 보고서: Korea - July 2026</div>
   </h1>
   <div class="meta">
-    <div class="en-only">Generated May 5, 2026 at 5:56 PM</div>
-    <div class="ko-only">생성일 May 5, 2026 at 5:56 PM</div>
+    <div class="en-only">Generated May 5, 2026 at 6:10 PM</div>
+    <div class="ko-only">생성일 May 5, 2026 at 6:10 PM</div>
   </div>
-  <div class="toolbar">
+  <div class="toolbar sticky-controls">
     <div class="control-group">
       <span class="control-label en-only">Language</span>
       <span class="control-label ko-only">언어</span>
