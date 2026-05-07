@@ -1,7 +1,6 @@
 item_id,item_name_en,item_name_ko,notes,room_en,room_ko,category_en,category_ko,length_in,length_cm,width_in,width_cm,height_in,height_cm,weight_lb,weight_kg,volume_ft3,volume_m3,image_path
 16,"Dining Table","식탁","The table top separates from the base for transportation.","Dining Room","식당","Furniture","가구",42.0,106.7,42.0,106.7,31.0,78.7,75.0,34.0,31.6,0.9,"images/item-16-photo.jpg"
 17,"Metal Media Cabinet","메탈 미디어 캐비닛","","Dining Room","식당","Furniture","가구",16.0,40.6,60.0,152.4,27.0,68.6,200.0,90.7,15.0,0.4,"images/item-17-photo.jpg"
-113,"Secretary","Secretary","Antique: 2-pieces - the top half comes off.","Dining Room","식당","Furniture","가구",17.0,43.2,35.0,88.9,80.0,203.2,100.0,45.4,27.5,0.8,"images/item-113-photo.jpeg"
 115,"Silver Dining Chairs (2)","Silver 식당 의자s (2)","","Dining Room","식당","Furniture","가구",17.5,44.5,19.8,50.2,30.2,76.8,20.0,9.1,6.1,0.2,"images/item-115-photo.jpeg"
 112,"Stackable Dining Chairs (6)","Stackable 식당 의자s (6)","Set of 6 stackable dining chairs.","Dining Room","식당","Furniture","가구",15.0,38.1,17.0,43.2,35.0,88.9,7.0,3.2,5.2,0.1,"images/item-112-photo.jpeg"
 32,"Cafe Table 1","Cafe 테이블 1","","Family Room","패밀리룸","Furniture","가구",24.0,61.0,24.0,61.0,31.5,80.0,45.0,20.4,10.5,0.3,"images/item-32-photo.jpg"
@@ -17,7 +16,6 @@ item_id,item_name_en,item_name_ko,notes,room_en,room_ko,category_en,category_ko,
 21,"Painting - Klee","그림 - Klee","","Hall","복도","Art","예술품",2.0,5.1,31.0,78.7,43.0,109.2,15.0,6.8,1.5,0.0,"images/item-21-photo.jpg"
 24,"Painting - Klee","그림 - Klee","","Hall","복도","Art","예술품",3.0,7.6,27.2,69.2,37.2,94.6,15.0,6.8,1.8,0.0,"images/item-24-photo.jpg"
 25,"Painting - Klee","그림 - Klee","","Hall","복도","Art","예술품",3.0,7.6,27.2,69.2,37.2,94.6,15.0,6.8,1.8,0.0,"images/item-25-photo.jpg"
-40,"Painting - LUV","그림 - LUV","","Hall","복도","Art","예술품",2.0,5.1,16.0,40.6,28.0,71.1,5.0,2.3,0.5,0.0,"images/item-40-photo.jpg"
 20,"Painting - Matisse","그림 - Matisse","","Hall","복도","Art","예술품",3.0,7.6,33.0,83.8,40.0,101.6,15.0,6.8,2.3,0.1,"images/item-20-photo.jpg"
 23,"Painting - Matisse","그림 - Matisse","","Hall","복도","Art","예술품",3.0,7.6,49.5,125.7,73.0,185.4,45.0,20.4,6.3,0.2,"images/item-23-photo.jpg"
 37,"Painting - Matisse","그림 - Matisse","","Hall","복도","Art","예술품",2.0,5.1,37.0,94.0,44.2,112.4,25.0,11.3,1.9,0.1,"images/item-37-photo.jpg"
